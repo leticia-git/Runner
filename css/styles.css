@@ -1,0 +1,65 @@
+.navbar{
+    width: 100%;
+    height: 100pt;
+    color:white;
+    font-family: 'Franklin Gothic';
+    font-size: 20px;
+}
+.navbar-brand{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+  a {
+    text-decoration: none;
+    color:black;
+   }
+
+   a:hover {
+    color:black;
+       }
+
+    .hoverzoom {
+        position: relative;
+        overflow: hidden;
+    }
+    .hoverzoom img {
+
+        -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    }
+    .hoverzoom:hover img {
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    .row{
+        padding:0px;
+        margin: 0px 0px 0px 0px ;
+    }
+     
+    .container{
+        padding:0px;
+        margin: 0px 0px 0px 0px ;
+    }
+
+
+      .map-responsive{
+        overflow:hidden;
+        padding-bottom:50%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
